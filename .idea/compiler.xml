@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lz_after_interface" />
+        <module name="lz_registry" />
+        <module name="lz_after_web" />
+        <module name="demooge" />
+        <module name="lz_after_provider" />
+        <module name="lz_after_service" />
+        <module name="lz_dao" />
+        <module name="lz_model" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demooge" target="1.8" />
+      <module name="lz_after_provider" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demooge" options="-parameters" />
+      <module name="lz_after_provider" options="-parameters" />
+      <module name="lz_after_service" options="-parameters" />
+      <module name="lz_after_web" options="-parameters" />
+      <module name="lz_dao" options="-parameters" />
+      <module name="lz_registry" options="-parameters" />
+    </option>
+  </component>
+</project>
